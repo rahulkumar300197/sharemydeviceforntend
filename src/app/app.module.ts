@@ -6,7 +6,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { UserComponent } from './component/user.component';
-import { AboutComponent } from './component/about.component';
+import { ResetPasswordComponent } from './component/resetpassword.component';
 import { routing } from './app.routing';
 
 
@@ -14,7 +14,7 @@ import { routing } from './app.routing';
   declarations: [
     AppComponent,
     UserComponent,
-    AboutComponent
+    ResetPasswordComponent
   ],
   imports: [
     BrowserModule,

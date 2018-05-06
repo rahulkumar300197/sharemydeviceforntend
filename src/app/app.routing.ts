@@ -2,7 +2,7 @@ import {ModuleWithProviders} from '@angular/core';
 import {Routes, RouterModule} from '@angular/router';
 
 import {UserComponent} from './component/user.component';
-import {AboutComponent} from './component/about.component';
+import {ResetPasswordComponent} from './component/resetpassword.component';
 
 const appRoutes: Routes = [
   {
@@ -10,8 +10,8 @@ const appRoutes: Routes = [
     component: UserComponent
   },
   {
-    path: 'about',
-    component: AboutComponent
+    path: 'resetpasswordbytoken',
+    component: ResetPasswordComponent
   }
 ];
 

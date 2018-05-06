@@ -27,6 +27,7 @@ export class UserComponent {
     this.hobbies = ['Music', 'Playing', 'Dancing'];
     this.showHobbies = false;
     this.restService.getPosts().subscribe(posts => {
+      console.log(posts);
       this.posts = posts;
     });
   }
