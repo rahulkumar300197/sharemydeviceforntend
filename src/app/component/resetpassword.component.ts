@@ -29,7 +29,8 @@ export class ResetPasswordComponent  implements OnInit {
   validateandsetpassword () {
     console.log('On Click');
     if (this.password.match(this.confirmpassword)) {
-      console.log('Matched');
+      console.log('Matched')
+      ;
       this.restService.resetpasswordbytoken(this.token, this.password)
       .subscribe(
         data => console.log(JSON.stringify(data)),
