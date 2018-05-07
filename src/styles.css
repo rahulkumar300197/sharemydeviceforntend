@@ -1,1 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
+<div class="pace  pace-inactive">
+         <div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+            <div class="pace-progress-inner"></div>
+         </div>
+         <div class="pace-activity"></div>
+      </div>
+      <!-- uiView:  -->
+      <div class="app ng-scope" ui-view="" style="">
+         <div class="dark bg-auto w-full ng-scope">
+            <div ui-view="" class="fade-in-right-big smooth pos-rlt ng-scope">
+               <div class="center-block w-xxl w-auto-xs p-y-md ng-scope">
+                  <div class="navbar">
+                     <div class="pull-center">
+                        <a class="navbar-brand ng-scope">
+                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="24" height="24">
+                              <path d="M 4 4 L 44 4 L 44 44 Z" fill="#a88add"></path>
+                              <path d="M 4 4 L 34 4 L 24 24 Z" fill="rgba(0,0,0,0.15)"></path>
+                              <path d="M 4 4 L 24 4 L 4  44 Z" fill="#0cc2aa"></path>
+                           </svg>
+                           <img src="../assets/images/logo.png" alt="." class="hide"> <span class="hidden-folded inline ng-binding">Flatkit</span>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="p-a-md box-color r box-shadow-z1 text-color m-a">
+                     <div class="m-b text-sm ng-binding">Sign in with your Flatkit Account</div>
+                     <form name="form" class="ng-pristine ng-valid-email ng-invalid ng-invalid-required">
+                        <div class="md-form-group float-label"><input type="email" class="md-input ng-pristine ng-untouched ng-empty ng-valid-email ng-invalid ng-invalid-required" ng-model="user.email" required=""><label>Email</label></div>
+                        <div class="md-form-group float-label"><input type="password" class="md-input ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required" ng-model="user.password" required=""><label>Password</label></div>
+                        <div class="m-b-md"><label class="md-check"><input type="checkbox"><i class="primary"></i> Keep me signed in</label></div>
+                        <button type="submit" class="btn primary btn-block p-x-md">Sign in</button>
+                     </form>
+                  </div>
+                  <div class="p-v-lg text-center">
+                     <div class="m-b"><a ui-sref="access.forgot-password" href="#/access/forgot-password" class="text-primary _600">Forgot password?</a></div>
+                     <div>Do not have an account? <a ui-sref="access.signup" href="#/access/signup" class="text-primary _600">Sign up</a></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script src="scripts/app.angular.js"></script>
+      <script src="../libs/jquery/flot/jquery.flot.js"></script><script src="../libs/jquery/flot/jquery.flot.resize.js"></script><script src="../libs/jquery/flot/jquery.flot.pie.js"></script><script src="../libs/jquery/flot.tooltip/js/jquery.flot.tooltip.min.js"></script><script src="../libs/jquery/flot-spline/js/jquery.flot.spline.min.js"></script><script src="../libs/jquery/flot.orderbars/js/jquery.flot.orderBars.js"></script><script src="../libs/jquery/jquery.sparkline/dist/jquery.sparkline.retina.js"></script>
+      <div class="flotTip" style="display: none; position: absolute;"></div>
