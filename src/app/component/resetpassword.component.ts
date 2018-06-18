@@ -33,7 +33,7 @@ export class ResetPasswordComponent  implements OnInit {
       ;
       this.restService.resetpasswordbytoken(this.token, this.password)
       .subscribe(
-        data => console.log(JSON.stringify(data)),
+        data => alert(JSON.stringify(data)),
         error => alert(error)
       );
     } else {

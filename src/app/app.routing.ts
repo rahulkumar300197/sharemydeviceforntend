@@ -7,10 +7,6 @@ import {ResetPasswordComponent} from './component/resetpassword.component';
 const appRoutes: Routes = [
   {
     path: '',
-    component: UserComponent
-  },
-  {
-    path: 'resetpasswordbytoken',
     component: ResetPasswordComponent
   }
 ];
